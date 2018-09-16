@@ -3,6 +3,7 @@
 
 @import "populix/pages/splash.scss";
 @import "populix/pages/login.scss";
+@import "populix/pages/home.scss";
 
 
 
@@ -10,13 +11,8 @@
 
 
 body{
-
+    background: '#fff';
 	font-family: 'Roboto', sans-serif;
-}
-
-
-.app {
-	background: '#fff';
 }
 
 

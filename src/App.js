@@ -16,17 +16,15 @@ import 'simple-line-icons/css/simple-line-icons.css';
 import './scss/style.css'
 
 /////Store
-import AppStore from './stores/app.store';
+//import AppStore from './stores/app.store';
 
 
 // Pages
-import { Splash} from './views/Pages';
+import { Login, Splash, Home} from './views/Pages';
 
 // import { renderRoutes } from 'react-router-config';
 
-const stores = {
-  AppStore
-};
+//
 
 
 
@@ -35,9 +33,11 @@ class App extends Component {
     return (
 
         <Router>
-         <Provider {...stores}>
-          <Route path="/" name="Home" component={Splash} />
-        </Provider>
+         <Switch>
+          <Route exact path="/login" name="Login Page" component={Login} />
+          <Route exact path="/home" name="Home Page" component={Home} />
+          <Route path="/" name="Home" component={Home} />
+         </Switch>
         </Router>
     );
   }
