@@ -20,7 +20,7 @@ import './scss/style.css'
 
 
 // Pages
-import { Login, Splash, Home, Forgot, ForgotSend, Register } from './views/Pages';
+import { Login, Splash, Home, Forgot, ForgotSend, Register, Welcome, Welcome2, Prescreening } from './views/Pages';
 
 // import { renderRoutes } from 'react-router-config';
 
@@ -36,6 +36,9 @@ class App extends Component {
          <Switch>
           <Route exact path="/login" name="Login Page" component={Login} />
           <Route exact path="/home" name="Home Page" component={Home} />
+          <Route exact path="/welcome" name="welcome Page" component={Welcome} />
+          <Route exact path="/welcome2" name="welcome2 Page" component={Welcome2} />
+          <Route exact path="/prescreening" name="Prescreening Page" component={Prescreening} />
           <Route exact path="/forgot" name="Forgot Page" component={Forgot} />
           <Route exact path="/register" name="Register Page" component={Register} />
           <Route exact path="/new-password" name="New password Page" component={ForgotSend} />

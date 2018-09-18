@@ -4,6 +4,7 @@
 @import "populix/pages/splash.scss";
 @import "populix/pages/login.scss";
 @import "populix/pages/home.scss";
+@import "populix/pages/welcome.scss";
 
 
 //////component
@@ -24,4 +25,10 @@ body{
 
 .bg-white{
 	background: '#fff';
+}
+
+
+.preline{
+
+	border-left: 1px solid #EDEFF2;
 }
