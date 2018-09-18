@@ -1,0 +1,78 @@
+//////////
+
+
+   .btn-social{
+   	 width: 150px;
+   	 height:40px;
+   	 font-family: $populix-open;
+   	 color:#fff;
+   	 border-radius:3px;
+   	 font-weight:700;
+
+   	 
+   }
+    .fb{        
+         background-color:#475993;
+   	  }
+
+   	  .linkedin{        
+         background-color:#0077B7;
+   	  }
+
+   	  .google{        
+         border-color:#000;
+         background-color:#fff;
+         color:#000;
+   	  }
+
+   	// .btn-register{
+
+    //  height:45px;
+   	//  font-family: $populix-open;
+   	//  color:#000;
+   	//  border-radius:3px;
+   	//  font-weight:700;
+   	//  background-color:$populix-yellow-dark;
+   	// }
+
+
+
+.button{
+
+     height:45px;
+     font-family: $populix-open;
+     color:#000;
+     border-radius:3px;
+     font-weight:700;
+     line-height:2;
+
+
+  
+}
+
+.btn-register{
+   
+     background-color:$populix-yellow-dark;
+     color:#000;
+     &:hover{
+      color:#000;
+     }
+
+   }
+
+.btn-login{
+   
+     background-color:$populix-blue-dark;
+     color:#fff;
+
+     &:hover{
+      color:#fff;
+     }
+
+   }
+
+
+
+
+
+

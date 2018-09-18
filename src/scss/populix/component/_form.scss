@@ -1,0 +1,44 @@
+//////////
+
+
+.label{
+
+    font-family: $populix-open;
+     color:#0D2433;
+     font-size:14px;
+     font-weight:700;
+
+
+}
+
+
+.forgot{
+     font-family: $populix-open;
+      font-weight:600;
+      font-size:12px;
+      color:#179DFE;
+
+       a{
+        color:#179DFE;
+       }
+        &:hover{
+          color:#179DFE;
+        }
+     }
+
+
+.input-form{
+
+   height:50px;
+   border-radius:3px;
+   border: 2px solid #E6E8EA;
+   font-family: $populix-open;
+   font-weight:600;
+   font-size:16px;
+   color:#0D2433;
+}
+
+
+
+
+

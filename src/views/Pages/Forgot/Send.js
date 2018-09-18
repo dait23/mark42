@@ -9,7 +9,7 @@ import AppStore from '../../../stores/app.store';
 
 const appStore = new AppStore();
 
-class Login extends Component {
+class ForgotSend extends Component {
 
   constructor(props) {
     super(props);
@@ -34,39 +34,32 @@ class Login extends Component {
         
              <Col md="6" className="d-flex flex-column hero">
                <h1>
-                 Selamat datang <br />kembali.
+                 Masukkan kata sandi  <br />yang baru.
                </h1>
-               <p>
-               Silahkan masuk ke dalam akun Populix anda
+               <p style={{width:'80%'}}>
+               Silahkan masukkan kata sandi yang baru. Untuk kamu gunakan ketika ingin melakukan login pada akun Populix.
                 </p>
               </Col>
               <Col md="6" className="d-flex flex-column hero">
                
                <Form>
                    <FormGroup>
-                    <Label className="label">Alamat Email</Label>
-                    <Input type="email" className="input-form" name="email" placeholder="" />
+                    <Label className="label">Kata Sandi Baru</Label>
+                    <Input type="password" className="input-form"  placeholder="" />
                   </FormGroup>
+
                   <FormGroup>
-                    <Label className="label">Kata Sandi</Label><a href="forgot" className="float-right forgot">Lupa Kata sandi ?</a>
-                    <Input type="password" className="input-form" name="password"  placeholder="" />
+                    <Label className="label">Konfirmasi Kata Sandi </Label>
+                    <Input type="password" className="input-form"  placeholder="" />
                   </FormGroup>
+                  
                </Form>
                <div className="d-flex mt-2 justify-content-between mb-4" style={{width:'100%'}}>
-                <button type="button" className="btn button btn-login btn-block">Masuk</button>
+                <button type="button" className="btn button btn-login btn-block">Kirim Kata Sandi</button>
                </div>
-               <img src="assets/img/line.png" />
+       
 
-               <div className="d-flex mt-4  justify-content-between mb-2" style={{width:'100%'}}>
-                
-                
-
-                <button type="button" className="btn btn-social fb"><i className="fab fa-facebook-f"></i> Facebook</button>
-                <button type="button" className="btn btn-social google"><img src="assets/img/google.png" width = '15'/> Google</button>
-                <button type="button" className="btn btn-social linkedin"><i className="fab fa-linkedin"></i> Linkedin</button>
                
-               
-               </div>
               </Col>
 
           
@@ -83,4 +76,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default ForgotSend;

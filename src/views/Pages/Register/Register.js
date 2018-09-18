@@ -9,7 +9,7 @@ import AppStore from '../../../stores/app.store';
 
 const appStore = new AppStore();
 
-class Login extends Component {
+class Register extends Component {
 
   constructor(props) {
     super(props);
@@ -34,15 +34,27 @@ class Login extends Component {
         
              <Col md="6" className="d-flex flex-column hero">
                <h1>
-                 Selamat datang <br />kembali.
+                 Mari bergabung  <br />dengan Populix.
                </h1>
-               <p>
-               Silahkan masuk ke dalam akun Populix anda
+               <p style={{width:'90%'}}>
+               Populix adalah platform kolaborasi bagi peneliti dan partisipan studi yang bertujuan agar memperoleh data yang akurat. Dengan bergabung menjadi partisipan kamu berkesempatan mendapatkan reward-reward dari Populix.
                 </p>
               </Col>
               <Col md="6" className="d-flex flex-column hero">
                
                <Form>
+                   <span className=" d-flex flex-row justify-content-between">
+                   <FormGroup>
+                    <Label className="label">Nama Depan</Label>
+                    <Input type="text" className="input-form" name="email" placeholder="" />
+                  </FormGroup>
+                  <FormGroup>
+                    <Label className="label">Nama Belakang</Label>
+                    <Input type="text" className="input-form" name="email" placeholder="" />
+                  </FormGroup>
+
+                   </span>
+                   
                    <FormGroup>
                     <Label className="label">Alamat Email</Label>
                     <Input type="email" className="input-form" name="email" placeholder="" />
@@ -52,21 +64,21 @@ class Login extends Component {
                     <Input type="password" className="input-form" name="password"  placeholder="" />
                   </FormGroup>
                </Form>
-               <div className="d-flex mt-2 justify-content-between mb-4" style={{width:'100%'}}>
-                <button type="button" className="btn button btn-login btn-block">Masuk</button>
+               <div className="d-flex mt-2 flex-column justify-content-between mb-4" style={{width:'100%'}}>
+                <button type="button" className="btn button btn-login btn-block">Daftar</button>
+                 <span className="term mt-2">Dengan menekan tombol daftar kamu menyetujui <a href="#">Syarat dan Ketentuan</a> Populix</span>
                </div>
-               <img src="assets/img/line.png" />
+               <div className="justify-content-center text-center " ><img src="assets/img/dot.png" /></div>
+               
 
-               <div className="d-flex mt-4  justify-content-between mb-2" style={{width:'100%'}}>
+              
                 
                 
 
-                <button type="button" className="btn btn-social fb"><i className="fab fa-facebook-f"></i> Facebook</button>
-                <button type="button" className="btn btn-social google"><img src="assets/img/google.png" width = '15'/> Google</button>
-                <button type="button" className="btn btn-social linkedin"><i className="fab fa-linkedin"></i> Linkedin</button>
+               <span className="term mt-4">Daftar dengan akun <a href="#">Facebook</a>, <a href="#">Google</a>,  <a href="#">Linkedin</a></span>
                
                
-               </div>
+              
               </Col>
 
           
@@ -83,4 +95,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default Register;

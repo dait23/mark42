@@ -59,8 +59,7 @@ class Home extends Component {
                <img src="assets/img/line.png" />
 
                <div className="d-flex mt-4 flex-column justify-content-between mb-2" style={{width:'100%'}}>
-                <button type="button" className="btn btn-register btn-block">Daftar dengan email</button>
-                
+                <a className="btn button btn-register btn-block" href="register" role="button">Daftar dengan email</a>
                
                </div>
                <span className="term">Dengan menekan tombol daftar kamu menyetujui <a href="#">Syarat dan Ketentuan</a> Populix</span>

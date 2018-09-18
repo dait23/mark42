@@ -7,7 +7,7 @@ class Header extends Component {
         <header>
           <nav className="navbar navbar-expand-md fixed-top  ">
             <div className="container">
-           <a className="navbar-brand" href="#">
+           <a className="navbar-brand" href="/">
               <img src="assets/img/image.png" width="108" height="32" alt="logo" />
             </a>
            
