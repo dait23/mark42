@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { Button, Jumbotron, Card, CardBody, CardGroup, Col, Container, Form, FormGroup, Label, Input, InputGroup, InputGroupAddon, InputGroupText, Row } from 'reactstrap';
 import { inject, observer, Provider } from "mobx-react";
 
+
 import Header from '../Header';
 import Footer from '../Footer';
+import PreForm from './Form';
 
 import AppStore from '../../../stores/app.store';
 
@@ -54,7 +56,7 @@ class Prescreening extends Component {
               </Col>
               <Col md="6" className="d-flex flex-column hero preline">
                
-              
+              <PreForm />
                
               </Col>
 
@@ -65,7 +67,7 @@ class Prescreening extends Component {
         
         </main>
 
-       <Footer />
+ 
       </div>
     </Provider>
     );

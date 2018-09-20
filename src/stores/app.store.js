@@ -11,7 +11,7 @@ export default class AppStore {
 
     constructor() {
         
-        this.footer = years + " " + 'Populix. PT Imaji Kreasi Triniti.';
+        this.footer = years + " "+ "Populix, PT Imaji Kreasi Triniti.";
       
       }
 
