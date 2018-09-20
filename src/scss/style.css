@@ -9950,7 +9950,108 @@ code {
   font-weight: 700;
   line-height: 28px; }
 
-.hero .btn-social {
+.term {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11.5px;
+  color: #242A2F;
+  text-align: center; }
+  .term a {
+    color: #179DFE; }
+
+.welcome-member {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  color: #0D2433; }
+
+.term2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #242A2F;
+  text-align: center; }
+  .term2 a {
+    color: #179DFE; }
+
+.term3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #0A3047;
+  text-align: left; }
+  .term3 a {
+    color: #179DFE; }
+
+.button-arrow {
+  position: absolute;
+  right: 35px;
+  margin-top: 5px; }
+
+.prebox {
+  margin: 0px 40px;
+  min-height: 300px;
+  height: auto; }
+  .prebox .preBar {
+    height: 10px;
+    border-radius: 10px; }
+  .prebox .preText {
+    color: #0A3047;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 20px; }
+  .prebox .preLabel {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #0A3047;
+    font-size: 16px;
+    line-height: 28px; }
+  .prebox .preLabelx {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #242A2F;
+    font-size: 12px;
+    line-height: 28px; }
+  .prebox .boxGender {
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    border: 5px solid #EDEFF2; }
+  .prebox .preDate {
+    border-color: #fff;
+    color: #179DFE;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px; }
+  .prebox .preInput {
+    border-color: #fff;
+    color: #179DFE;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px; }
+  .prebox .preSelect {
+    margin-left: 38px; }
+  .prebox .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block; }
+  .prebox .btn {
+    border: 0px solid gray;
+    color: #179DFE;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold; }
+  .prebox .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0; }
+
+.btn-social {
   width: 150px;
   height: 40px;
   font-family: "Open Sans", sans-serif;
@@ -9958,30 +10059,61 @@ code {
   border-radius: 3px;
   font-weight: 700; }
 
-.hero .fb {
+.fb {
   background-color: #475993; }
 
-.hero .linkedin {
+.linkedin {
   background-color: #0077B7; }
 
-.hero .google {
+.google {
   border-color: #000;
+  background-color: #fff;
   color: #000; }
 
-.hero .btn-register {
+.button {
   height: 45px;
   font-family: "Open Sans", sans-serif;
   color: #000;
   border-radius: 3px;
   font-weight: 700;
-  background-color: #FAAF40; }
+  line-height: 2; }
 
-.term {
+.btn-register {
+  background-color: #FAAF40;
+  color: #000; }
+  .btn-register:hover {
+    color: #000; }
+
+.btn-login {
+  background-color: #179DFE;
+  color: #fff; }
+  .btn-login:hover {
+    color: #fff; }
+
+.label {
   font-family: "Open Sans", sans-serif;
-  font-size: 11.5px;
-  color: #242A2F; }
-  .term a {
+  color: #0D2433;
+  font-size: 14px;
+  font-weight: 700; }
+
+.forgot {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #179DFE; }
+  .forgot a {
     color: #179DFE; }
+  .forgot:hover {
+    color: #179DFE; }
+
+.input-form {
+  height: 50px;
+  border-radius: 3px;
+  border: 2px solid #E6E8EA;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0D2433; }
 
 body {
   background: '#fff';
@@ -9989,6 +10121,9 @@ body {
 
 .bg-white {
   background: '#fff'; }
+
+.preline {
+  border-left: 1px solid #EDEFF2; }
 
 html body .app.flex-row.align-items-center {
   height: 100vh; }
